@@ -21,8 +21,8 @@ export const ServiceContainer = styled.div`
         font-size:${({ theme }) => theme.fontSize.fz_7};
         font-weight:${({ theme }) => theme.fontWeight.fw_3};
         position:absolute;
-        left:70%;
-        bottom:70%;
+        left:65%;
+        bottom:65%;
         opacity:0.4;
     }
 `

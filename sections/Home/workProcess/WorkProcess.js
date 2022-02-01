@@ -104,7 +104,7 @@ const WorkProcess = () => {
                                 animate={active === d.id ? "enter" : "hidden"}
                                 transition={{ duration: 0.4, type: "just"}}
                             >
-                                <Badge>{d.icon}</Badge>
+                                <Badge className="work_icon">{d.icon}</Badge>
                                 <SubHeading>{d.title}</SubHeading>
                                 <Paragraph>{ d.desc }</Paragraph>
                             </motion.div>

@@ -35,7 +35,7 @@ export const Content = styled(motion.div)`
     .detail {
         position:relative;
         width:100%;
-        max-height:50vh;
+        max-height:60vh;
         overflow:hidden;
     } 
     img{
@@ -51,18 +51,21 @@ export const Content = styled(motion.div)`
         left:0;
         top:10%;
         padding:50px;
-        background-color:rgba(0,0,0,0.9);
-        max-width:600px;
+        max-width:50%;
+        background-color:${({theme}) => theme.colors.lightblack};
         box-shadow:${({ theme }) => theme.BX_shadow.BX_shadow_1};
         
         @media screen and (max-width: ${({ theme }) => theme.responsive.mobile}) {
+            max-width:100%;
+            padding:15px;
             top:0;
-            left:0;
-            bottom:0;
-            right:0;
+
+            .work_icon {
+                display:none;
             }
         }
     }
+
     .layer {
         position:absolute;
         background-color:rgba(0,0,0,0.6);
