@@ -13,6 +13,10 @@ export const GalleryContainer = styled.div`
     }
     .body {
         padding:30px;
+
+        @media screen and (max-width:${({ theme }) => theme.responsive.mobile}) {
+            padding:15px 10px;
+        }
     }
 
     .badge {
@@ -20,6 +24,11 @@ export const GalleryContainer = styled.div`
         color: ${({ theme }) => theme.colors.dark};
         padding:5px;
         opacity:0.7;
+
+        @media screen and (max-width:${({ theme }) => theme.responsive.mobile}) {
+            padding:4px 2px;
+            margin:7px;
+        }
     }
 
     .box {

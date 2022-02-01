@@ -22,6 +22,7 @@ export const BannerBox = styled.div`
     box-shadow: ${({ theme }) => theme.BX_shadow.BX_shadow_1};
     border-radius:${({ theme }) => theme.brderRadi.borderRadius};
     padding:50px;
+
     .desc {
         width:80%;
     }
@@ -29,6 +30,7 @@ export const BannerBox = styled.div`
     @media screen and (max-width: ${({ theme }) => theme.responsive.LG}) {
         flex-direction:column;
         text-align:center;
+        padding:10px;
         
         .desc{
             width:100%;

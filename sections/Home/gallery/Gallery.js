@@ -1,5 +1,5 @@
 import { GalleryContainer } from "./Gallery.styled";
-import { StyledContainer, MainHeading, SubHeading, Paragraph, TexTBtn, Button, StyledRow, Column, Image, Flex  } from "../../../components/layout/Layout.styled"
+import { StyledContainer, MainHeading, SubHeading, Paragraph, TexTBtn, Button, StyledRow, Column, Image, Flex, Small  } from "../../../components/layout/Layout.styled"
 import Data from './Data'
 import Link from 'next/link'
 import { CgChevronDoubleRight } from 'react-icons/cg'
@@ -19,7 +19,7 @@ const Gallery = () => {
                                 <div className="body">
                                     <Flex>
                                         <SubHeading Size="2rem">{d.title}</SubHeading>
-                                        <Paragraph className="badge">{ d.subtitle }</Paragraph>
+                                        <Small className="badge">{ d.subtitle }</Small>
                                     </Flex>
                                     <Link href="/works"><TexTBtn>full case study <CgChevronDoubleRight className="up" /></TexTBtn></Link>
                                 </div>
