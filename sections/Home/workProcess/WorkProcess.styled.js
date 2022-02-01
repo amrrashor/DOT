@@ -37,7 +37,12 @@ export const Content = styled(motion.div)`
         width:100%;
         max-height:60vh;
         overflow:hidden;
+
+        @media screen and (max-width:500px) {
+            overflow:auto;
+        }
     } 
+
     img{
         width:100%;
     }
@@ -51,7 +56,7 @@ export const Content = styled(motion.div)`
         left:0;
         top:10%;
         padding:50px;
-        max-width:50%;
+        max-width:70%;
         background-color:${({theme}) => theme.colors.lightblack};
         box-shadow:${({ theme }) => theme.BX_shadow.BX_shadow_1};
         
@@ -59,10 +64,6 @@ export const Content = styled(motion.div)`
             max-width:100%;
             padding:15px;
             top:0;
-
-            .work_icon {
-                display:none;
-            }
         }
     }
 
