@@ -28,7 +28,7 @@ export const Flex = styled.div`
     flex-direction: ${({Direction}) => Direction || "row"};
     margin: ${({ m }) => m || "0 0 0 0"};
     padding: ${({ p }) => p || "0 0 0 0"};
-    align-items: ${({align}) => align || ""}
+    align-items: ${({align}) => align || ""};
 `
 
 export const MainHeading = styled.h2`

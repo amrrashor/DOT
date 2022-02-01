@@ -9,7 +9,7 @@ const error = () => {
     <Animated>
         <ErrorContainer>
                 <StyledContainer>
-                        <Flex className="box" Direction="column" Justify="center" align="center">
+                        <Flex className="box">
                             <MainHeading  Size="10em">404!</MainHeading>
                             <Paragraph>oops! it seems that this page doesn't exist</Paragraph>
                             <Link href="/">
