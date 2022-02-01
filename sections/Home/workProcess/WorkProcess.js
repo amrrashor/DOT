@@ -89,6 +89,7 @@ const WorkProcess = () => {
                     
                 {Data.map(d => (
                     <Content
+                        key={d.id}
                         active={active === d.id}
                         variants={tabVariant}
                         initial={active != d.id ? "hidden" : "enter"}

@@ -27,8 +27,8 @@ const MainNavbar = () => {
                 <NavBarCollapse id="basic-navbar-nav">
                     <NavContent className="me-auto">
                         {Data.map(d => (
-                                <Link href={d.link}>
-                                <NavItem href={d.link} key={d.id}>
+                                <Link  key={d.id} href={d.link}>
+                                <NavItem href={d.link}>
                                     <span className={router.pathname === d.link ? "active" : ""}>{d.title}</span>
                                 </NavItem>
                             </Link>
