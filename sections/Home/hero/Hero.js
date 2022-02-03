@@ -38,7 +38,7 @@ const Hero = () => {
         <HeroContainer className="space">
             <StyledContainer className="text-center" p="80px 0" >
                 <StyledRow>
-                    <Column lg={6} md={6} sm={12} align="left">
+                    <Column lg={6} md={6} sm={12} xs={12} align="left">
                             <Paragraph>we are a digital agency based in california</Paragraph>
                             <MainHeading>we build digital products for creative peoples</MainHeading>
                             <Paragraph>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aspernatur. Numquam eos accusantium aliquam earum quam esse a quos minima?</Paragraph>

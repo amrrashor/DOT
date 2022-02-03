@@ -16,7 +16,7 @@ const Testmonials = () => {
     return (
         <TestContainer>
             <StyledContainer>
-                <MainHeading>what people say.</MainHeading>
+                <MainHeading>what our customers say.</MainHeading>
                 <Swiper
                     spaceBetween={30}
                     slidesPerView={2}

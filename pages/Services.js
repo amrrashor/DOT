@@ -1,9 +1,11 @@
 import MainLayout from "../sections/MainLayout";
+import ServicesLayout from '../sections/services/index';
+
 
 const Services = () => {
     return (
         <MainLayout>
-            <div>hello</div>
+            <ServicesLayout />
         </MainLayout>
     );
 }
