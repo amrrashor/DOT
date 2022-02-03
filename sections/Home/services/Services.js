@@ -19,7 +19,7 @@ const Services = () => {
                                 </Flex>
                                 <SubHeading m="5px 0 5px">{ d.title }</SubHeading>
                                 <Paragraph LH="3">{d.desc}</Paragraph>
-                                <Link href="/services">
+                                <Link href="/Services">
                                     <TexTBtn>learn more <CgChevronDoubleRight className='up' /></TexTBtn>
                                 </Link>
                             </motion.div>

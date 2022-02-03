@@ -7,7 +7,7 @@ const NavbarData = [
     {
         id: 2,
         title: "Services",
-        link: '/services',
+        link: '/Services',
     },
     {
         id: 3,
