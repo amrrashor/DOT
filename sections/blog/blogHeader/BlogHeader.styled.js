@@ -3,7 +3,8 @@ import styled from "styled-components";
 
 export const Header = styled.div`
     width:100%;
-
+    padding:80px 0;
+    
     .content {
         position:relative;
         max-height:65vh;
