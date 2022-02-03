@@ -12,7 +12,7 @@ const BlogHeaderData = [
         id: 2,
         img: "/assets/blog/blog2.jpg",
         title: "What Does The Future Hold For Mobile Apps",
-        badge: "development",
+        badge: "wev dev",
         author: "steve vence",
         date: "january 12, 2021",
         desc:"Mobile usage and app downloads are on the rise. In response, developers are finding unique ways to utilize tech in our phones to solve real-world problems, record accurate data, and provide entertainment to millions."
