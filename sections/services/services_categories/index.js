@@ -14,7 +14,8 @@ const Category = () => {
                                     <MainHeading className="icon" Size="60px">{d.icon}</MainHeading>
                                 </Column>
                                 <Column lg={6} md={12} sm={12} xs={12}>
-                                    <Flex Direction="column">
+                                    <Flex className="contnet" Direction="column">
+                                        <MainHeading className="order">{ d.order}</MainHeading>
                                         <MainHeading>{d.title}</MainHeading>
                                         <Paragraph>{ d.paragraph}</Paragraph>
                                     </Flex>
