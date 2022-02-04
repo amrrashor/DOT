@@ -1,7 +1,8 @@
-import { SingleCardContainer, SingleCard } from "./singleNewsCard.styled";
-import {StyledContainer, Title, Paragraph, TexTBtn, StyledRow, Column, Image, Small} from '../../../components/layout/Layout.styled'
-import Data from './Data';
 import Link from 'next/link'
+
+import { SingleCardContainer, SingleCard } from "./singleNewsCard.styled";
+import { Title, Paragraph, TexTBtn, StyledRow, Column, Image, Small} from '../../../components/layout/Layout.styled'
+import Data from './Data';
 
 export const Single = () => {
     return (

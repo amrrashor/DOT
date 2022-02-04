@@ -1,6 +1,7 @@
+import Link from "next/dist/client/link";
+
 import { SocialContainer, SocialTag } from "./socialblock.styled";
 import Data from './Data'
-import Link from "next/dist/client/link";
 
 const SocialBlock = () => {
     return (

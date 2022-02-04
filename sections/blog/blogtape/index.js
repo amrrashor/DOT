@@ -1,18 +1,16 @@
-import { TapeContainer, TapeElement } from "./Tape.styled";
-import { Paragraph, StyledContainer} from '../../../components/layout/Layout.styled'
 import Link from 'next/link';
-import Data from './Data';
 
 //swiper
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-fade"
 import "swiper/css/navigation"
-
 import SwiperCore, { Autoplay, EffectFade, Navigation } from 'swiper';
-
 SwiperCore.use([Autoplay, EffectFade, Navigation]);
 
+import { TapeContainer, TapeElement } from "./Tape.styled";
+import { Paragraph, StyledContainer} from '../../../components/layout/Layout.styled'
+import Data from './Data';
 
 const Tape = () => {
     return (

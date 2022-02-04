@@ -1,8 +1,11 @@
+import Link from 'next/link'
+
+import { CgChevronDoubleRight } from 'react-icons/cg'
+
 import { GalleryContainer } from "./Gallery.styled";
 import { StyledContainer, MainHeading, SubHeading, Paragraph, TexTBtn, Button, StyledRow, Column, Image, Flex, Small  } from "../../../components/layout/Layout.styled"
 import Data from './Data'
-import Link from 'next/link'
-import { CgChevronDoubleRight } from 'react-icons/cg'
+
 const Gallery = () => {
     return (
         <GalleryContainer>

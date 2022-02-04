@@ -1,15 +1,15 @@
-//bootstrap
-import { Navbar, Nav } from "react-bootstrap";
-
-//data
-import Data from './Data';
-
 //next router
 import Link from "next/dist/client/link";
 import { useRouter } from 'next/router'
 
+//bootstrap
+import { Navbar } from "react-bootstrap";
+
 //react icons
 import { BiChevronRight } from 'react-icons/bi'
+
+//data
+import Data from './Data';
 
 //styled components
 import { StyledNavbar, Logo, NavItem, NavBarCollapse, NavContent } from "./Navbar.stlyed";

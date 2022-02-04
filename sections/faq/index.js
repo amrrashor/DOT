@@ -1,6 +1,7 @@
+import { Accordion } from "react-bootstrap";
+
 import { FaqContainer, SingleItem } from "./faq.styled";
 import {StyledContainer, StyledRow, Column, Image } from "../../components/layout/Layout.styled";
-import { Accordion } from "react-bootstrap";
 import Data from './Data';
 import { Animated } from "../../components/layout/Animation";
 

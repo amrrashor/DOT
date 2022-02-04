@@ -1,16 +1,13 @@
-import { TestContainer } from "./Testmonials.styled"
-import { StyledContainer, MainHeading, Title, Paragraph, Icon, Flex } from "../../../components/layout/Layout.styled"
-
+import { AiFillStar } from 'react-icons/ai';
 //swiper
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Autoplay, Pagination } from "swiper";
 SwiperCore.use([Autoplay,Pagination]);
 import 'swiper/css';
-// import "swiper/css/pagination"
 
+import { TestContainer } from "./Testmonials.styled"
+import { StyledContainer, MainHeading, Title, Paragraph, Icon, Flex } from "../../../components/layout/Layout.styled"
 import Data from './Data';
-
-import { AiFillStar } from 'react-icons/ai';
 
 const Testmonials = () => {
     return (

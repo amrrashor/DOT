@@ -1,9 +1,12 @@
-import { ServiceContainer } from './Services.styled';
-import { MainHeading, Paragraph, StyledContainer, StyledRow, Column, Icon, Flex, TexTBtn, Title, SubHeading } from '../../../components/layout/Layout.styled';
+import Link from 'next/link'
+
 import { CgChevronDoubleRight } from 'react-icons/cg'
 import { motion } from 'framer-motion';
+
+import { ServiceContainer } from './Services.styled';
+import { MainHeading, Paragraph, StyledContainer, StyledRow, Column, Icon, Flex, TexTBtn, Title, SubHeading } from '../../../components/layout/Layout.styled';
 import Data from './Data';
-import Link from 'next/link'
+
 const Services = () => {
     return (
         <ServiceContainer>

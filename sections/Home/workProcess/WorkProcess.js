@@ -1,3 +1,7 @@
+import { useState } from "react";
+
+import { motion } from "framer-motion";
+
 import { WorkContainer, Tab, Content } from "./WorkProcess.styled";
 import {
     StyledContainer,
@@ -10,9 +14,7 @@ import {
     SubHeading
 } from "../../../components/layout/Layout.styled";
 import { Badge } from '../../blog/blogHeader/BlogHeader.styled';
-import { motion } from "framer-motion";
 import Data from './Data';
-import { useState } from "react";
 
 //framer motion variants
 const tabVariant = {

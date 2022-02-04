@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import { FooterContainer } from "./Footer.styled";
 import {
     StyledContainer,
@@ -11,7 +13,6 @@ import {
     Divider,
 } from "../layout/Layout.styled";
 import Data from './Data';
-import Link from 'next/link';
 
 const Footer = () => {
     return (

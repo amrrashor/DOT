@@ -1,6 +1,7 @@
+import Link from 'next/link';
+
 import { ErrorContainer } from "./404.styled"
 import { Flex, MainHeading, Paragraph, StyledContainer, Button } from "../../components/layout/Layout.styled";
-import Link from 'next/link';
 import { Animated } from "../../components/layout/Animation";
 
 

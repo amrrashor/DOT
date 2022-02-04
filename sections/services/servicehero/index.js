@@ -1,5 +1,6 @@
 import { ServiceHero } from "./servicehero.styled"
-import {MainHeading, Paragraph, Image, StyledRow, StyledContainer, Column, Flex} from '../../../components/layout/Layout.styled'
+import { MainHeading, Paragraph, Image, StyledRow, StyledContainer, Column, Flex } from '../../../components/layout/Layout.styled'
+
 const Hero = () => {
     return (
         <ServiceHero>

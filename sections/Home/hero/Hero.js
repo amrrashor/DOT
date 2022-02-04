@@ -1,3 +1,12 @@
+import Link from "next/dist/client/link";
+import {motion} from 'framer-motion'
+//swiper
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/effect-fade"
+import SwiperCore, { Autoplay, EffectFade } from 'swiper';
+SwiperCore.use([Autoplay, EffectFade]);
+
 import {
     Image,
     MainHeading,
@@ -8,17 +17,9 @@ import {
     Column
 } from "../../../components/layout/Layout.styled";
 import { HeroContainer } from './Hero.styled';
-
-import {motion} from 'framer-motion'
-import Link from "next/dist/client/link";
 import Data from './Data';
 
-//swiper
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/effect-fade"
-import SwiperCore, { Autoplay, EffectFade } from 'swiper';
-SwiperCore.use([Autoplay, EffectFade]);
+
 
 
 const variants = {

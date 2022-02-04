@@ -1,6 +1,6 @@
-import { SearchContainer, Input, Content, SearchIcon } from "./Search.styled";
 import { AiOutlineSearch } from 'react-icons/ai'
 
+import { SearchContainer, Input, Content, SearchIcon } from "./Search.styled";
 
 const Search = () => {
     return (

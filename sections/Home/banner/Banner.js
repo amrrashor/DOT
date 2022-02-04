@@ -1,11 +1,11 @@
-//styled components
-import { MainHeading, Paragraph ,Flex, Button, StyledContainer, Column, StyledRow, Image } from "../../../components/layout/Layout.styled"
-import { BannerContainer, BannerBox } from "./Banner.styled"
+import Link from 'next/link'
 
 //icons
 import { BiChevronRight } from "react-icons/bi";
 
-import Link from 'next/link'
+//styled components
+import { MainHeading, Paragraph ,Flex, Button, StyledContainer, Column, StyledRow, Image } from "../../../components/layout/Layout.styled"
+import { BannerContainer, BannerBox } from "./Banner.styled"
 
 const Banner = () => {
     return (

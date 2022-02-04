@@ -1,8 +1,9 @@
-import { CategoriesContainer, Single } from "./sidecategories.styled";
+import Link from 'next/link'
+
 import { BiChevronRight } from "react-icons/bi"
 
+import { CategoriesContainer, Single } from "./sidecategories.styled";
 import Data from './Data';
-import Link from 'next/link'
 
 const SideCategories = () => {
     return (

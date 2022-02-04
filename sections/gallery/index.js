@@ -3,6 +3,7 @@ import Landing from "./gallerylanding";
 import {SecondAnimated} from '../../components/layout/Animation'
 import GalleryBody from './gallerybody/index'
 import Banner from "./gallerybanner";
+
 const Gallery = () => {
     return (
         <SecondAnimated>

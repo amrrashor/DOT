@@ -1,8 +1,8 @@
+import Link from 'next/link';
+
 import { Paragraph, StyledContainer, StyledRow, Column, Icon, Button } from "../../../components/layout/Layout.styled"
 import { CompaniesContainer } from './Companies.styled';
 import Data from './Data'
-import Link from 'next/link';
-
 
 const Companies = () => {
     return (

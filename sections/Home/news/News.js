@@ -1,8 +1,9 @@
-import { StyledContainer, StyledRow, Column, Paragraph, Title, Image, MainHeading, Flex, TexTBtn, Button } from "../../../components/layout/Layout.styled";
-import { NewsContainer } from "./News.styled";
+import Link from 'next/link';
 
 import { BiChevronRight } from 'react-icons/bi';
-import Link from 'next/link';
+
+import { StyledContainer, StyledRow, Column, Paragraph, Title, Image, MainHeading, Flex, TexTBtn, Button } from "../../../components/layout/Layout.styled";
+import { NewsContainer } from "./News.styled";
 import Data from './Data';
 
 const News = () => {

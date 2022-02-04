@@ -1,8 +1,3 @@
-import { Badge, Header } from "./BlogHeader.styled";
-import { Image,Paragraph,Title } from '../../../components/layout/Layout.styled';
-
-import Data from './Data'
-
 //swiper
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -12,6 +7,10 @@ import SwiperCore, { Autoplay, EffectFade } from 'swiper';
 
 SwiperCore.use([Autoplay, EffectFade]);
 
+import { Badge, Header } from "./BlogHeader.styled";
+import { Image,Paragraph,Title } from '../../../components/layout/Layout.styled';
+
+import Data from './Data'
 
 const BlogHeader = () => {
     return (

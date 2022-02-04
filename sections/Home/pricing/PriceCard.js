@@ -1,7 +1,7 @@
-import {PriceCardContainer, Currency} from "./Pricing.styled";
-import { Paragraph, Button, Title, MainHeading } from "../../../components/layout/Layout.styled";
 import Link from "next/dist/client/link";
-import { AiOutlineCheckCircle } from 'react-icons/ai'
+
+import { PriceCardContainer, Currency } from "./Pricing.styled";
+import { Paragraph, Button, Title, MainHeading } from "../../../components/layout/Layout.styled";
 
 const PriceCard = ({option, productDetails}) => {
     const {

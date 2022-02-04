@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 //styled components
 import { PricingContainer } from "./Pricing.styled";
 import {
@@ -8,19 +10,11 @@ import {
     MainHeading,
     Divider
 } from '../../../components/layout/Layout.styled'
-
 //components
 import PriceToggler from "./PriceToggle";
 import PriceCard from "./PriceCard";
-
 //data
 import Data from './Data';
-
-import { useState } from "react";
-
-import { FaTimesCircle } from 'react-icons/fa';
-import { AiOutlineCheckCircle } from "react-icons/ai";
-
 
 const Pricing = () => {
 

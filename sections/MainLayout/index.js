@@ -1,9 +1,9 @@
+import { AnimatePresence } from "framer-motion";
+
 //components
 import Navbar from '../../components/navbar/Navbar';
 import Footer from '../../components/footer/Footer';
-import { AnimatePresence } from "framer-motion";
 
-//bootstrap
 const MainLayout = ({ children }) => {
     return (
         <>
