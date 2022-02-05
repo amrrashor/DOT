@@ -9,7 +9,8 @@ const PricingData = {
             firstLi: "All limited links",
             secondLi: "Own analytics platform",
             thirdLi:  "Chat support",
-            fourthLi:"Unlimited users",
+            fourthLi: "Unlimited users",
+            id:1,
         },
         {
             planType: "professional",
@@ -20,7 +21,8 @@ const PricingData = {
             firstLi: "All limited links",
             secondLi: "Own analytics platform",
             thirdLi:  "Chat support",
-            fourthLi:"Unlimited users",
+            fourthLi: "Unlimited users",
+            id:2,
         },
         {
             planType: "master",
@@ -31,7 +33,8 @@ const PricingData = {
             firstLi: "All limited links",
             secondLi: "Own analytics platform",
             thirdLi:  "Chat support",
-            fourthLi:"Unlimited users",
+            fourthLi: "Unlimited users",
+            id:3,
         }
     ]
 }

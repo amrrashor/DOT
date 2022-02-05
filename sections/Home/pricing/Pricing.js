@@ -36,8 +36,8 @@ const Pricing = () => {
                 <PriceToggler option={option} handleToggle={handleToggle} />
                 <Divider />
                 <StyledRow>
-                    {Data.Pricing.map((d , index) => (
-                        <Column lg={4} md={6} sm={6} xs={12} key={index}>
+                    {Data.Pricing.map((d) => (
+                        <Column lg={4} md={6} sm={6} xs={12} key={d.id}>
                             <PriceCard
                                 key={d.planType}
                                 option={option}

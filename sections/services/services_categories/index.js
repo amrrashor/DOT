@@ -7,8 +7,8 @@ const Category = () => {
         <CategoryContainer>
             <StyledContainer>
                 <StyledRow>
-                    {Data.map((d, index) => (
-                        <Column key={index} xs={12}>
+                    {Data.map((d) => (
+                        <Column key={d.order} xs={12}>
                             <StyledRow className="margin" Direction={d.direction === "reverse" ? "row-reverse" : "row"} align="center" justify="space-between">
                                 <Column lg={6} md={12} sm={12} xs={12}>
                                     <MainHeading className="icon" Size="60px">{d.icon}</MainHeading>

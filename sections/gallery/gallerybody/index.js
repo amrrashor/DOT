@@ -13,8 +13,8 @@ const Gallery = () => {
         <GalleryBody>
             <StyledContainer>
                 <StyledRow>
-                    {Data.map((d, index) => (
-                        <Column key={index} xl={6} lg={6} md={6} sm={12} xs={12}> 
+                    {Data.map((d) => (
+                        <Column key={d.id} xl={6} lg={6} md={6} sm={12} xs={12}> 
                             <Link href="/singlegallerypage">
                                 <motion.div whileHover={{y:-10}} transition={{duration: 0.3, type: "tween"}} className="content">
                                     <motion.div whileHover={{opacity:1, y:0}} transition={{ duration: 0.4, type: "tween" }} className="layout">

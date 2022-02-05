@@ -14,8 +14,8 @@ const Landing = () => {
         <GalleryLanding className="space">
 
             <Swiper className="slider" effect={'fade'} slidesPerView={1} autoplay={{ "delay": 2500, "disableOnInteraction": false }} >
-                    {Data.map((d, index )=> (
-                        <SwiperSlide  key={index}>
+                    {Data.map((d )=> (
+                        <SwiperSlide  key={d.id}>
                             <Image src={d.img} />
                         </SwiperSlide>
                     ))}
