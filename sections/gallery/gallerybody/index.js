@@ -15,13 +15,11 @@ const Gallery = () => {
                 <StyledRow>
                     {Data.map((d) => (
                         <Column key={d.id} xl={6} lg={6} md={6} sm={12} xs={12}> 
-                            <Link href="/singlegallerypage">
-                                <motion.div whileHover={{y:-10}} transition={{duration: 0.3, type: "tween"}} className="content">
-                                    <motion.div whileHover={{opacity:1, y:0}} transition={{ duration: 0.4, type: "tween" }} className="layout">
-                                        <SubHeading>full case study</SubHeading><Icon> <AiOutlineSearch /></Icon>
-                                    </motion.div>
+                            <Link href="/singlegallerypage" >
+                                <div className="content">
+                                    <SubHeading className='desc'>full case study</SubHeading>
                                     <Image src={d.img} />
-                                </motion.div>
+                                </div>
                             </Link>
                         </Column>
                     ))}
