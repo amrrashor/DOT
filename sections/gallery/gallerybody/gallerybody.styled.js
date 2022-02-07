@@ -11,6 +11,7 @@ export const GalleryBody = styled.div`
         display:flex;
         justify-content:center;
         align-items:center;
+        box-shadow: ${({ theme }) => theme.BX_shadow.BX_shadow_1};
 
         &:hover .desc {
             opacity:1;

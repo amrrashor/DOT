@@ -76,6 +76,3 @@ export const Content = styled(motion.div)`
         right:0;
     }
 `
-
-
-   

@@ -1,7 +1,7 @@
 import Link from 'next/link'
+import { useState, useEffect } from 'react';
 
 import { motion } from 'framer-motion';
-import { AiOutlineSearch } from 'react-icons/ai';
 
 import Data from './data'
 import { Column, StyledContainer, StyledRow, Image, SubHeading, Icon, Divider } from "../../../components/layout/Layout.styled";
@@ -9,6 +9,7 @@ import { GalleryBody } from './gallerybody.styled';
 
 
 const Gallery = () => {
+
     return (
         <GalleryBody>
             <StyledContainer>

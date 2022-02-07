@@ -65,10 +65,7 @@ const WorkProcess = () => {
         <WorkContainer>
             <StyledContainer>
                 <MainHeading>work process</MainHeading>
-                <Paragraph>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, iste harum soluta repellendus aliquid, rem magnam esse voluptas necessitatibus quod, nobis aperiam omnis unde similique inventore quibusdam repudiandae modi reiciendis!</Paragraph>
-                
-                <StyledRow>
-                    
+                <Paragraph>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, iste harum soluta repellendus aliquid, rem magnam esse voluptas necessitatibus quod, nobis aperiam omnis unde similique inventore quibusdam repudiandae modi reiciendis!</Paragraph>        
                 <Flex Justify="flex-start">
                     {Data.map(d => (
                         <Tab className="text-center" key={d.id} id={d.id} active={active === d.id} onClick={handleClick}>
@@ -115,8 +112,6 @@ const WorkProcess = () => {
                         </div>
                     </Content>
                 ))}
-                    
-                </StyledRow>
             </StyledContainer>
         </WorkContainer>
     )
