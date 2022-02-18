@@ -1,5 +1,3 @@
-import Head from 'next/head';
-
 import HomeSections from '../sections/Home';
 import MainLayout from '../sections/MainLayout';
 
