@@ -12,6 +12,7 @@ import {
     Flex,
     Divider,
 } from "../layout/Layout.styled";
+import {Logo} from '../navbar/Navbar.stlyed'
 import Data from './Data';
 
 const Footer = () => {
@@ -20,7 +21,9 @@ const Footer = () => {
             <StyledContainer >
                 <StyledRow >
                     <Column xs={6} sm={6} md={6} lg={3}>
-                        <SubHeading>MIM</SubHeading>
+                        <Link href="/">
+                            <Logo> <span>m</span> IM</Logo>
+                        </Link>
                         <Paragraph m="15px 10px 0 0">we are a digital agency based in california</Paragraph>
                     </Column>
 
