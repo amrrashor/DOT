@@ -54,10 +54,9 @@ const WorkProcess = () => {
     
     const [active, setActive] = useState(1);
 
-    const handleClick = e => {
-        const index = parseInt(e.target.id, 0);
-        if (index !== active) {
-            setActive(index);
+    const handleClick = id => {
+        if (id !== active && id !== null) {
+            setActive(id);
         }
     }
 
@@ -68,7 +67,7 @@ const WorkProcess = () => {
                 <Paragraph>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, iste harum soluta repellendus aliquid, rem magnam esse voluptas necessitatibus quod, nobis aperiam omnis unde similique inventore quibusdam repudiandae modi reiciendis!</Paragraph>        
                 <Flex Justify="flex-start">
                     {Data.map(d => (
-                        <Tab className="text-center" key={d.id} id={d.id} active={active === d.id} onClick={handleClick}>
+                        <Tab className="text-center" key={d.id}  active={active === d.id} onClick={()=>handleClick(d.id)}>
                             <Title id={d.id}>
                                 {active === d.id ?
                                     <motion.span

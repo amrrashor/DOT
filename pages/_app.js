@@ -1,6 +1,6 @@
 import { ThemeProvider } from "styled-components";
 import GlobalStyle from "../utilities/style/Global"
-import Dot from "../utilities/theme";
+import MIM from "../utilities/theme";
 import 'bootstrap/dist/css/bootstrap.css';
 import Head from 'next/head';
 import { AnimatePresence } from "framer-motion";
@@ -9,9 +9,12 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Dot</title>
+        <title>MIM</title>
+        <link rel="icon" href="/favicon.png" />
+
       </Head> 
-      <ThemeProvider theme={Dot}>
+
+      <ThemeProvider theme={MIM}>
           <GlobalStyle />
           <AnimatePresence exitBeforeEnter>
             <Component {...pageProps} />

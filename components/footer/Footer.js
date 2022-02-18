@@ -20,7 +20,7 @@ const Footer = () => {
             <StyledContainer >
                 <StyledRow >
                     <Column xs={6} sm={6} md={6} lg={3}>
-                        <SubHeading>dot</SubHeading>
+                        <SubHeading>MIM</SubHeading>
                         <Paragraph m="15px 10px 0 0">we are a digital agency based in california</Paragraph>
                     </Column>
 
@@ -92,7 +92,7 @@ const Footer = () => {
 
                 <Divider />
 
-                <Paragraph align="center">&copy; Dot 2021, all rights reserved. </Paragraph>
+                <Paragraph align="center">&copy; MIM 2022, all rights reserved. </Paragraph>
             </StyledContainer>
         </FooterContainer>
     )

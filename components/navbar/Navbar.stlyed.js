@@ -17,6 +17,14 @@ export const Logo = styled(Navbar.Brand)`
     margin-right:30px;
     font-weight: ${({ theme }) => theme.fontWeight.fw_3};
     cursor:pointer;
+    text-shadow:${({ theme }) => theme.BX_shadow.BX_shadow_1};
+
+    span {
+        display:inline-block;
+        transform:rotate(20deg);
+        font-size: ${({ theme }) => theme.fontSize.fz_3};
+        color:${({ theme }) => theme.colors.button};
+    }
 `
 export const NavContent = styled(Nav)`
     margin-left:60px;

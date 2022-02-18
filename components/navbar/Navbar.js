@@ -21,7 +21,7 @@ const MainNavbar = () => {
         <StyledNavbar expand="lg" variant="dark">
             <StyledContainer p="15px 0">
                 <Link href="/">
-                    <Logo href="/">Dot.</Logo>
+                    <Logo href="/"> <span>M</span> IM</Logo>
                 </Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <NavBarCollapse id="basic-navbar-nav">

@@ -1,4 +1,4 @@
-const Dot = {
+const MIM = {
     colors: {
         dark: "#1a1a1a",
         rawblack: "#000",
@@ -43,4 +43,4 @@ const Dot = {
     }
 }
 
-export default Dot
+export default MIM

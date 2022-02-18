@@ -31,6 +31,7 @@ export const Flex = styled.div`
     align-items: ${({align}) => align || ""};
 `
 
+
 export const MainHeading = styled.h2`
     font-weight: ${({ theme }) => theme.fontWeight.fw_2};
     text-transform: capitalize;
@@ -118,7 +119,7 @@ export const TexTBtn = styled.a`
 
 export const Image = styled.img`
     max-width: ${({ max }) => max || "100%"};
-    margin: ${({ m }) => m || "0 0 0 0"};
+    margin: ${({ m }) => m || "0"};
 `
 
 export const Icon = styled.span`
