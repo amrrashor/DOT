@@ -14,7 +14,7 @@ const Faq = () => {
                     <MainHeading m="40px 0">before you ask anything checkout our FAQS.</MainHeading>
                     <StyledRow>
                         <Column xs={12} sm={12} md={6} lg={6}>
-                                <Image src="assets/FAQ.svg" />
+                                <Image src="assets/faq/FAQ.svg" />
                         </Column>
                         <Column xs={12} sm={12} md={5} lg={6}>
                             <Accordion defaultActiveKey="0">

@@ -5,7 +5,7 @@ export const BannerContainer = styled.div`
     padding:50px 0;
 
     .bannerBg {
-        background:url(/assets/banner.jpg);
+        background:url(/assets/banner/banner.jpg);
         background-attachment:fixed;
         background-size:cover;
         background-position: center;
