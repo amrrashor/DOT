@@ -2,7 +2,7 @@
 import { BLogContainer } from "./Blog.styled";
 import { StyledRow, Column, StyledContainer, Sticky } from "../../components/layout/Layout.styled";
 
-import { FourthAnimated } from '../../components/layout/Animation'
+import { Animated } from '../../components/layout/Animation'
 
 //components
 import BlogHeader from "./blogHeader";
@@ -16,7 +16,7 @@ import SocialBlock from './socialblock';
 
 const Blog = () => {
     return (
-        <FourthAnimated>
+        <Animated>
             <BLogContainer className="space">
                 <BlogHeader />
                 <StyledContainer>
@@ -38,7 +38,7 @@ const Blog = () => {
                 <Tape />
                 <BlogBanner />
             </BLogContainer>
-        </FourthAnimated>
+        </Animated>
     )
 }
 

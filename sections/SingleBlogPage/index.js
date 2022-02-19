@@ -3,7 +3,7 @@ import { BsChevronDoubleLeft, BsChevronDoubleRight } from 'react-icons/bs';
 
 import { SinglePageContainer, BlogBody, Shadow } from "./SingleBlogPage.styled"
 import { StyledContainer, StyledRow, Column, Image, SubHeading, Paragraph, Sticky, Flex, Small, TexTBtn } from '../../components/layout/Layout.styled'
-import { Animated } from '../../components/layout/Animation';
+import { Animated, ThirdAnimated } from '../../components/layout/Animation';
 import Search from "../blog/search"
 import SideCategories from "../blog/sideCategories"
 import PopularTag from "../blog/populartags"
@@ -16,7 +16,7 @@ import Data from './Data'
 
 const SinglePage = () => {
     return (
-        <Animated>
+        <ThirdAnimated>
             <SinglePageContainer className="space">
                 <BlogHeader />
                 <StyledContainer>
@@ -65,7 +65,7 @@ const SinglePage = () => {
                 <BlogTape />
                 <BlogBanner />
             </SinglePageContainer>
-        </Animated>
+        </ThirdAnimated>
     )
 }
 export default SinglePage

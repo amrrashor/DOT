@@ -7,7 +7,6 @@ import {
     Column,
     Title,
     Paragraph,
-    SubHeading,
     Icon,
     Flex,
     Divider,

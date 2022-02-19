@@ -5,11 +5,11 @@ import { Accordion } from "react-bootstrap";
 import { FaqContainer, SingleItem } from "./faq.styled";
 import {StyledContainer, StyledRow, Column, Image, MainHeading, Divider, Title, TexTBtn } from "../../components/layout/Layout.styled";
 import Data from './Data';
-import { Animated } from "../../components/layout/Animation";
+import { SecondAnimated } from "../../components/layout/Animation";
 
 const Faq = () => {
     return (
-        <Animated>
+        <SecondAnimated>
             <FaqContainer className="space">
                 <StyledContainer>
                     <MainHeading m="40px 0">before asking anything, checkout our FAQS.</MainHeading>
@@ -36,7 +36,7 @@ const Faq = () => {
                     <Title>feel free to call <Link href="/contact"><TexTBtn className="us">us.</TexTBtn></Link></Title>
                 </StyledContainer>
             </FaqContainer>
-        </Animated>
+        </SecondAnimated>
     )
 }
 
