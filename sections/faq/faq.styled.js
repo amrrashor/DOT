@@ -4,6 +4,13 @@ import { Accordion } from "react-bootstrap";
 
 export const FaqContainer = styled.div`
     width:100%;
+
+    .us {
+        font-size:inherit;
+        font-weight:inherit;
+        text-transform:inherit;
+        color:${({ theme }) => theme.colors.button};
+    }
 `
 
 export const SingleItem = styled(Accordion.Item)`

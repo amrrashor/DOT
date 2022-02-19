@@ -93,7 +93,7 @@ export const Button = styled.a`
 export const TexTBtn = styled.a`
     position:relative;
     display:inline-block;
-    color: ${({ theme }) => theme.colors.white} !important;
+    color: ${({ theme }) => theme.colors.white} ;
     font-size: ${({ theme }) => theme.fontSize.fz_1};
     font-weight: ${({ theme }) => theme.fontWeight.fw_1};
     text-transform: uppercase;
@@ -114,6 +114,7 @@ export const TexTBtn = styled.a`
     }
     &:hover {
         letter-spacing:3px;
+        color: ${({ theme }) => theme.colors.white};
     }
 `
 
