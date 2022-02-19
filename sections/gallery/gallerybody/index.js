@@ -1,12 +1,8 @@
 import Link from 'next/link'
-import { useState, useEffect } from 'react';
-
-import { motion } from 'framer-motion';
 
 import Data from './data'
-import { Column, StyledContainer, StyledRow, Image, SubHeading, Icon, Divider } from "../../../components/layout/Layout.styled";
+import { Column, StyledContainer, StyledRow, Image, Divider, Title } from "../../../components/layout/Layout.styled";
 import { GalleryBody } from './gallerybody.styled';
-
 
 const Gallery = () => {
 
@@ -18,7 +14,7 @@ const Gallery = () => {
                         <Column key={d.id} xl={6} lg={6} md={6} sm={12} xs={12}> 
                             <Link href="/singlegallerypage" >
                                 <div className="content">
-                                    <SubHeading className='desc'>full case study</SubHeading>
+                                    <Title className='desc'>full case study</Title>
                                     <Image src={d.img} />
                                 </div>
                             </Link>

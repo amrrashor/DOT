@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const GalleryBanner = styled.div`
     width:100%;
-    background-color: ${({ theme }) => theme.colors.rawblack};
     padding:50px;
     display:flex;
     justify-content:center;
@@ -29,7 +28,7 @@ export const GalleryBanner = styled.div`
 
     input,
     textarea{
-        background:${({ theme }) => theme.colors.rawblack};
+        background:${({ theme }) => theme.colors.gunmetal};
         border-color:${({ theme }) => theme.colors.button};
         padding:15px 15px;
         color:${({ theme }) => theme.colors.white};

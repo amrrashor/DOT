@@ -1,12 +1,12 @@
 import { GalleryBanner } from "./gallerybanner.styled";
-import { MainHeading, StyledContainer, Button, Flex } from '../../../components/layout/Layout.styled';
+import { StyledContainer, Button, Flex, Title } from '../../../components/layout/Layout.styled';
 
 
 const Banner = () => {
     return (
         <GalleryBanner>
             <StyledContainer>
-                <MainHeading>interested in our works? please consider calling us.</MainHeading>
+                <Title m="0 0 40px 0">interested in our works? please consider calling us.</Title>
                 <form>
                     <Flex Direction="column" className="first">
                         <input type="text" placeholder="your name" />

@@ -58,7 +58,7 @@ export const Badge = styled.span`
     bottom:0;
     right:0;
     padding:6px;
-    opacity:5;
+    opacity:0.5;
     background-color:${({ theme }) => theme.colors.button};
     color:${({ theme }) => theme.colors.rawblack};
     font-size:${({ theme }) => theme.fontSize.fz_1};
