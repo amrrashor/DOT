@@ -31,7 +31,6 @@ export const Flex = styled.div`
     align-items: ${({align}) => align || ""};
 `
 
-
 export const MainHeading = styled.h2`
     font-weight: ${({ theme }) => theme.fontWeight.fw_2};
     text-transform: capitalize;
@@ -60,7 +59,7 @@ export const Paragraph = styled.p`
     text-transform: capitalize;
     padding: ${({ p }) => p || "0 0 0 0"};
     font-weight: ${({ Weight }) => Weight || "500"};
-    margin : ${({m}) => m || "0 0 0 0"};
+    margin : ${({ m }) => m || "0 0 0 0"};
 `
 
 export const Small = styled.span`

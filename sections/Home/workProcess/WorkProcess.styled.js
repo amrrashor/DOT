@@ -9,6 +9,7 @@ export const WorkContainer = styled.div`
 
 export const Tab = styled.div`
     width:${(props) => props.active ? "25%" : "8%"};
+    overflow:hidden;
     cursor: pointer;
     background-color: ${(props) => props.active ? "#81e6d9" : ""};
     color: ${(props) => props.active ? "#000" : ""};
@@ -26,6 +27,10 @@ export const Tab = styled.div`
     span {
         display: flex;
         justify-content:center;
+
+        span {
+            padding-left:5px;
+        }
     }
 `
 

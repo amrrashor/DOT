@@ -7,8 +7,12 @@ export const StyledNavbar = styled(Navbar)`
     left:0;
     right:0;
     z-index:100;
-    box-shadow:${({ theme }) => theme.BX_shadow.BX_shadow_1};
-    background-color:${({theme}) =>theme.colors.dark};
+    transition:${({theme}) => theme.transition.trans};
+
+    &.colorChange {
+        box-shadow:${({ theme }) => theme.BX_shadow.BX_shadow_1};
+        background-color:${({ theme }) => theme.colors.dark};
+    }
 `
 
 export const Logo = styled(Navbar.Brand)`
@@ -73,3 +77,4 @@ export const NavBarCollapse = styled(Navbar.Collapse)`
     display:flex;
     justify-content:center;
 `
+//

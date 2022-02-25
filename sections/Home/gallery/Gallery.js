@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { CgChevronDoubleRight } from 'react-icons/cg'
 
 import { GalleryContainer } from "./Gallery.styled";
+import SectionHeading from '../../../components/SectionHeading/index';
 import { StyledContainer, MainHeading, SubHeading, Paragraph, TexTBtn, Button, StyledRow, Column, Image, Flex, Small  } from "../../../components/layout/Layout.styled"
 import Data from './Data'
 
@@ -10,8 +11,7 @@ const Gallery = () => {
     return (
         <GalleryContainer>
             <StyledContainer>
-                <MainHeading>some of our creative works</MainHeading>
-                <Paragraph>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aspernatur. Numquam eos accusantium aliquam earum quam esse a quos minima?</Paragraph>
+                <SectionHeading title="some of our creative works" desc="We Create Digital Products That Make People’s Lives Easier." />
                 <StyledRow>
                     {Data.map(d => (
                         <Column lg={6} xs={12} md={6} key={d.id}>

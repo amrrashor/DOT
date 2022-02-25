@@ -1,6 +1,7 @@
 //next router
 import Link from "next/dist/client/link";
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/router';
+import { useEffect } from "react";
 
 //bootstrap
 import { Navbar } from "react-bootstrap";
@@ -15,10 +16,28 @@ import Data from './Data';
 import { StyledNavbar, Logo, NavItem, NavBarCollapse, NavContent } from "./Navbar.stlyed";
 import { StyledContainer, Button } from "../layout/Layout.styled";
 
+
 const MainNavbar = () => {
-    const router = useRouter()
+
+    useEffect(() => {
+        const header = document.getElementById('navbar');
+        const handleScroll = window.addEventListener("scroll", () => {
+            if (window.pageYOffset > 50) {
+                header.classList.add("colorChange");
+            } else {
+                header.classList.remove("colorChange")
+            }
+        });
+        return () => {
+            window.removeEventListener("scroll", handleScroll)
+        };
+    }, []);
+
+
+    const router = useRouter();
+
     return (
-        <StyledNavbar expand="lg" variant="dark">
+        <StyledNavbar id="navbar" expand="lg" variant="dark">
             <StyledContainer p="15px 0">
                 <Link href="/">
                     <Logo href="/"> <span>M</span> IM</Logo>

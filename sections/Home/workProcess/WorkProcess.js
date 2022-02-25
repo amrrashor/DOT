@@ -76,7 +76,7 @@ const WorkProcess = () => {
                                         animate={active === d.id ? "enter" : ""}
                                         transition={{ duration: 0.4, type: "just"}}
                                     >
-                                        {d.icon}{d.title}
+                                        {d.icon} <span>{d.title}</span>
                                     </motion.span> : d.icon}
                             </Title>
                         </Tab>         
