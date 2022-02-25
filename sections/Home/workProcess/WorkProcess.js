@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import { motion } from "framer-motion";
 
+import SectionHeading from "../../../components/SectionHeading";
 import { WorkContainer, Tab, Content } from "./WorkProcess.styled";
 import {
     StyledContainer,
@@ -63,8 +64,9 @@ const WorkProcess = () => {
     return (
         <WorkContainer>
             <StyledContainer>
-                <MainHeading>work process</MainHeading>
-                <Paragraph>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, iste harum soluta repellendus aliquid, rem magnam esse voluptas necessitatibus quod, nobis aperiam omnis unde similique inventore quibusdam repudiandae modi reiciendis!</Paragraph>        
+                <SectionHeading title="work process" desc="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, iste harum soluta repellendus aliquid, rem magnam esse voluptas necessitatibus quod, nobis aperiam omnis unde similique inventore quibusdam repudiandae modi reiciendis!" />
+                <MainHeading></MainHeading>
+                <Paragraph></Paragraph>        
                 <Flex Justify="flex-start">
                     {Data.map(d => (
                         <Tab className="text-center" key={d.id}  active={active === d.id} onClick={()=>handleClick(d.id)}>

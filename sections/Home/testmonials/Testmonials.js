@@ -5,15 +5,16 @@ import SwiperCore, { Autoplay, Pagination } from "swiper";
 SwiperCore.use([Autoplay,Pagination]);
 import 'swiper/css';
 
+import SectionHeading from '../../../components/SectionHeading';
 import { TestContainer } from "./Testmonials.styled"
-import { StyledContainer, MainHeading, Title, Paragraph, Icon, Flex } from "../../../components/layout/Layout.styled"
+import { StyledContainer, Title, Paragraph, Icon, Flex } from "../../../components/layout/Layout.styled"
 import Data from './Data';
 
 const Testmonials = () => {
     return (
         <TestContainer>
             <StyledContainer>
-                <MainHeading>what our customers say.</MainHeading>
+                <SectionHeading title="what our customers say."/>
                 <Swiper
                     spaceBetween={30}
                     slidesPerView={2}

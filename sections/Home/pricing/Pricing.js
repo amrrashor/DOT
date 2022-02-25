@@ -6,13 +6,12 @@ import {
     StyledContainer,
     StyledRow,
     Column,
-    Paragraph,
-    MainHeading,
     Divider
 } from '../../../components/layout/Layout.styled'
 //components
 import PriceToggler from "./PriceToggle";
 import PriceCard from "./PriceCard";
+import SectionHeading from "../../../components/SectionHeading";
 //data
 import Data from './Data';
 
@@ -31,8 +30,7 @@ const Pricing = () => {
     return (
         <PricingContainer>
             <StyledContainer>
-                <MainHeading>simple, transparent pricing.</MainHeading>
-                <Paragraph>no contracts and surpricing fees.</Paragraph>  
+                <SectionHeading title="simple, transparent pricing." desc="no contracts and surpricing fees." />
                 <PriceToggler option={option} handleToggle={handleToggle} />
                 <Divider />
                 <StyledRow>

@@ -3,15 +3,16 @@ import Link from 'next/link'
 import { CgChevronDoubleRight } from 'react-icons/cg'
 import { motion } from 'framer-motion';
 
+import SectionHeading from '../../../components/SectionHeading';
 import { ServiceContainer } from './Services.styled';
-import { MainHeading, Paragraph, StyledContainer, StyledRow, Column, Icon, Flex, TexTBtn, Title, SubHeading } from '../../../components/layout/Layout.styled';
+import { Paragraph, StyledContainer, StyledRow, Column, Icon, Flex, TexTBtn, Title, SubHeading } from '../../../components/layout/Layout.styled';
 import Data from './Data';
 
 const Services = () => {
     return (
         <ServiceContainer>
             <StyledContainer>
-                <MainHeading m="40px 0">we provide you the best services.</MainHeading>
+                <SectionHeading title="we provide you the best services." />
                 <StyledRow>
                     {Data.map(d => (
                         <Column key={ d.id } lg={4} md={6} xs={12}>
