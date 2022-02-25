@@ -10,7 +10,7 @@ import Data from './Data';
 
 const Services = () => {
     return (
-        <ServiceContainer>
+        <ServiceContainer className="extra_space">
             <StyledContainer>
                 <SectionHeading title="we provide you the best services." />
                 <StyledRow>

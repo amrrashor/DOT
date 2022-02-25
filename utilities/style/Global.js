@@ -51,6 +51,9 @@ const GlobalStyle = createGlobalStyle`
     .space {
         padding-top:80px;
     }
+    .extra_space {
+        padding-top:100px;
+    }
 `
 
 export default GlobalStyle

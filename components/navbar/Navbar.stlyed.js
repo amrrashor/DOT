@@ -6,8 +6,8 @@ export const StyledNavbar = styled(Navbar)`
     position:fixed;
     left:0;
     right:0;
-    z-index:100;
-    transition:${({theme}) => theme.transition.trans};
+    z-index:200;
+    transition:${({ theme }) => theme.transition.trans};
 
     &.colorChange {
         box-shadow:${({ theme }) => theme.BX_shadow.BX_shadow_1};

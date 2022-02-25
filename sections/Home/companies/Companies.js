@@ -6,7 +6,7 @@ import Data from './Data'
 
 const Companies = () => {
     return (
-        <CompaniesContainer>
+        <CompaniesContainer className='space'>
             <StyledContainer w="60%" className="text-center">
                 
                 <Paragraph className="text-center" Size="2rem" p="20px 0 20px 0">trusted by</Paragraph>

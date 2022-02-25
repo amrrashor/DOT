@@ -9,7 +9,7 @@ import Data from './Data';
 
 const News = () => {
     return (
-        <NewsContainer>
+        <NewsContainer className='extra_space'>
             <StyledContainer>
                 <SectionHeading title="our latest news" desc="m dolor sit amet consectetur adipisicing elit. Accusamus, aspernatur. Numquam eos accusantium aliquam earum quam esse a quos min" />
                 <StyledRow m="40px 0 0 0">

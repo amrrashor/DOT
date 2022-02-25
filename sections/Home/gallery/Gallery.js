@@ -9,7 +9,7 @@ import Data from './Data'
 
 const Gallery = () => {
     return (
-        <GalleryContainer>
+        <GalleryContainer className='extra_space'>
             <StyledContainer>
                 <SectionHeading title="some of our creative works" desc="We Create Digital Products That Make People’s Lives Easier." />
                 <StyledRow>

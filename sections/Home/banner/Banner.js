@@ -10,7 +10,7 @@ import { BannerContainer, BannerBox } from "./Banner.styled"
 
 const Banner = () => {
     return (
-        <BannerContainer>
+        <BannerContainer className='space'>
             <StyledContainer>
             <div className="bannerBg">
                 <BannerBox>

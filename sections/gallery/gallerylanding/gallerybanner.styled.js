@@ -12,7 +12,6 @@ export const GalleryLanding = styled.div`
         bottom:0;
         right:0;
         width:100%;
-        background-color:#000;
         opacity:0.5;
         z-index:5;
     }

@@ -28,7 +28,7 @@ const Pricing = () => {
     }
 
     return (
-        <PricingContainer>
+        <PricingContainer className="extra_space">
             <StyledContainer>
                 <SectionHeading title="simple, transparent pricing." desc="no contracts and surpricing fees." />
                 <PriceToggler option={option} handleToggle={handleToggle} />

@@ -62,7 +62,7 @@ const WorkProcess = () => {
     }
 
     return (
-        <WorkContainer>
+        <WorkContainer className="extra_space">
             <StyledContainer>
                 <SectionHeading title="work process" desc="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, iste harum soluta repellendus aliquid, rem magnam esse voluptas necessitatibus quod, nobis aperiam omnis unde similique inventore quibusdam repudiandae modi reiciendis!" />
                 <MainHeading></MainHeading>

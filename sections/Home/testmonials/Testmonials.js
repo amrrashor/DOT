@@ -12,7 +12,7 @@ import Data from './Data';
 
 const Testmonials = () => {
     return (
-        <TestContainer>
+        <TestContainer className='space'>
             <StyledContainer>
                 <SectionHeading title="what our customers say."/>
                 <Swiper
