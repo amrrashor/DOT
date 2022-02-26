@@ -1,6 +1,6 @@
+//styled components
 import { GalleryBanner } from "./gallerybanner.styled";
 import { StyledContainer, Button, Flex, MainHeading } from '../../../components/layout/Layout.styled';
-
 
 const Banner = () => {
     return (

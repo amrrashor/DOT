@@ -1,7 +1,10 @@
+//react
 import Link from 'next/link';
 
+//styled components
 import { Paragraph, StyledContainer, StyledRow, Column, Icon, Button } from "../../../components/layout/Layout.styled"
 import { CompaniesContainer } from './Companies.styled';
+//data
 import Data from './Data'
 
 const Companies = () => {

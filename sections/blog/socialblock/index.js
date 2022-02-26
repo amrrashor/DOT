@@ -1,6 +1,9 @@
+//react
 import Link from "next/dist/client/link";
 
+//styled components
 import { SocialContainer, SocialTag } from "./socialblock.styled";
+//data
 import Data from './Data'
 
 const SocialBlock = () => {

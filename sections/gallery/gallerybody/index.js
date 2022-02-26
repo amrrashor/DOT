@@ -1,6 +1,9 @@
+//react
 import Link from 'next/link'
 
+//data
 import Data from './data'
+//styled component
 import { Column, StyledContainer, StyledRow, Image, Divider, Title } from "../../../components/layout/Layout.styled";
 import { GalleryBody } from './gallerybody.styled';
 

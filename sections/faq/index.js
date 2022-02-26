@@ -1,10 +1,15 @@
+//react
 import Link from "next/dist/client/link";
 
+//bootstrap accordion
 import { Accordion } from "react-bootstrap";
 
+//styled container
 import { FaqContainer, SingleItem } from "./faq.styled";
 import {StyledContainer, StyledRow, Column, Image, MainHeading, Divider, Title, TexTBtn } from "../../components/layout/Layout.styled";
+//data
 import Data from './Data';
+//animation component
 import { SecondAnimated } from "../../components/layout/Animation";
 
 const Faq = () => {

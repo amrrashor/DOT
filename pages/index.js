@@ -1,4 +1,6 @@
+//main home page
 import HomeSections from '../sections/Home';
+//main layout
 import MainLayout from '../sections/MainLayout';
 
 

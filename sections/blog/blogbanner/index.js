@@ -1,6 +1,6 @@
-import {BannerContainer,Input, Submit} from './BlogBanner.styled'
+//styled components
+import { BannerContainer, Input, Submit } from './BlogBanner.styled'
 import { StyledContainer,MainHeading, Title, Flex } from '../../../components/layout/Layout.styled'
-
 
 const BlogBanner = () => {
     return (

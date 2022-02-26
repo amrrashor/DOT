@@ -1,4 +1,6 @@
+//data
 import Data from './data';
+//styled components
 import { GalleryImageContainer } from './single_gallery_image.styled';
 import { Image } from '../../../components/layout/Layout.styled';
 

@@ -1,9 +1,13 @@
+//styled components
 import { SingleGallery } from './single_gallery_page.styled';
-import {SecondAnimated} from '../../components/layout/Animation'
-import Header from './single_gallery_header/index'
 import { StyledContainer, StyledRow, Column, Sticky } from '../../components/layout/Layout.styled';
+//animation components
+import { SecondAnimated } from '../../components/layout/Animation'
+//components
+import Header from './single_gallery_header/index'
 import GalleryBody from './single_gallery_body';
 import GalleryImage from './single_gallery_image';
+
 const SinglePage = () => {
     return (
         <SecondAnimated>

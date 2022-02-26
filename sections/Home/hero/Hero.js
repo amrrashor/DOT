@@ -1,5 +1,7 @@
+//react
 import Link from "next/dist/client/link";
-import {motion} from 'framer-motion'
+//framer motion
+import { motion } from 'framer-motion'
 //swiper
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -7,6 +9,7 @@ import "swiper/css/effect-fade"
 import SwiperCore, { Autoplay, EffectFade } from 'swiper';
 SwiperCore.use([Autoplay, EffectFade]);
 
+//styled components
 import {
     Image,
     MainHeading,
@@ -17,6 +20,7 @@ import {
     Column
 } from "../../../components/layout/Layout.styled";
 import { HeroContainer } from './Hero.styled';
+//data
 import Data from './Data';
 
 

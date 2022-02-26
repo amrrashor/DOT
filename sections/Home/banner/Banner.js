@@ -1,12 +1,14 @@
+//react
 import Link from 'next/link'
 
-//icons
+//react icons
 import { BiChevronRight } from "react-icons/bi";
 
 //styled components
-import SectionHeading from '../../../components/SectionHeading/index'
 import { Flex, Button, StyledContainer } from "../../../components/layout/Layout.styled"
 import { BannerContainer, BannerBox } from "./Banner.styled"
+//components
+import SectionHeading from '../../../components/SectionHeading/index'
 
 const Banner = () => {
     return (

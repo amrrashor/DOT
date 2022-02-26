@@ -2,6 +2,7 @@
 import { BLogContainer } from "./Blog.styled";
 import { StyledRow, Column, StyledContainer, Sticky } from "../../components/layout/Layout.styled";
 
+//animation component
 import { Animated } from '../../components/layout/Animation'
 
 //components

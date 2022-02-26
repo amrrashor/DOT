@@ -1,5 +1,7 @@
+//react icons
 import { AiOutlineSearch } from 'react-icons/ai'
 
+//styled components
 import { SearchContainer, Input, Content, SearchIcon } from "./Search.styled";
 
 const Search = () => {

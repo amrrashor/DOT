@@ -1,5 +1,7 @@
+//react
 import Link from "next/dist/client/link";
 
+//styled components
 import { PriceCardContainer, Currency } from "./Pricing.styled";
 import { Paragraph, Button, Title, MainHeading } from "../../../components/layout/Layout.styled";
 

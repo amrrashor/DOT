@@ -1,3 +1,4 @@
+//styled components
 import { ServiceHero } from "./servicehero.styled"
 import { MainHeading, Paragraph, Image, StyledRow, StyledContainer, Column, Flex } from '../../../components/layout/Layout.styled'
 

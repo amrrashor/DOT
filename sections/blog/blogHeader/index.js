@@ -2,14 +2,13 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-fade"
-
 import SwiperCore, { Autoplay, EffectFade } from 'swiper';
-
 SwiperCore.use([Autoplay, EffectFade]);
 
+//styled components
 import { Badge, Header } from "./BlogHeader.styled";
 import { Image,Paragraph,Title } from '../../../components/layout/Layout.styled';
-
+//data
 import Data from './Data'
 
 const BlogHeader = () => {

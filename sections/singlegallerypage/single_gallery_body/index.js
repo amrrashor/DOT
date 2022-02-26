@@ -1,7 +1,10 @@
+//react
 import Link from 'next/link'
 
+//styled container
 import { GalleryBodyContainer } from "./gallery_body.styled";
 import { Paragraph, Title, TexTBtn } from '../../../components/layout/Layout.styled';
+
 const GalleryBody = () => {
     return (
         <GalleryBodyContainer>

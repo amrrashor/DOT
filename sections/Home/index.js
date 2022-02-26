@@ -1,3 +1,4 @@
+//components
 import Hero from './hero/Hero';
 import Companies from './companies/Companies';
 import Services from './services/Services';

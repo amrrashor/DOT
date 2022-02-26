@@ -1,3 +1,4 @@
+//react icons
 import { AiFillStar } from 'react-icons/ai';
 //swiper
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -5,9 +6,12 @@ import SwiperCore, { Autoplay, Pagination } from "swiper";
 SwiperCore.use([Autoplay,Pagination]);
 import 'swiper/css';
 
+//components
 import SectionHeading from '../../../components/SectionHeading';
+//styled components
 import { TestContainer } from "./Testmonials.styled"
 import { StyledContainer, Title, Paragraph, Icon, Flex } from "../../../components/layout/Layout.styled"
+//data
 import Data from './Data';
 
 const Testmonials = () => {

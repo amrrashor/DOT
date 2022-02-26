@@ -1,6 +1,9 @@
+//styled components
 import { ServiceContianer } from "./service.styled"
-import Hero from "./servicehero";
+//animation components
 import { ThirdAnimated } from "../../components/layout/Animation";
+//components
+import Hero from "./servicehero";
 import Category from "./services_categories";
 import Pricing from '../Home/pricing/Pricing';
 import Testmonials from '../Home/testmonials/Testmonials'

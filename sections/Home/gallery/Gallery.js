@@ -1,11 +1,16 @@
+//react
 import Link from 'next/link'
 
+//react icons
 import { CgChevronDoubleRight } from 'react-icons/cg'
 
+//styled components
 import { GalleryContainer } from "./Gallery.styled";
-import SectionHeading from '../../../components/SectionHeading/index';
 import { StyledContainer, MainHeading, SubHeading, Paragraph, TexTBtn, Button, StyledRow, Column, Image, Flex, Small  } from "../../../components/layout/Layout.styled"
+//data
 import Data from './Data'
+//components
+import SectionHeading from '../../../components/SectionHeading/index';
 
 const Gallery = () => {
     return (

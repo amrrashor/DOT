@@ -1,3 +1,4 @@
+//styled components
 import { ToggleContainer, ToggleBack, ToggleFront } from "./Pricing.styled";
 import { Title } from "../../../components/layout/Layout.styled";
 

@@ -1,8 +1,11 @@
-import { GalleryContainer } from "./gallery.styled";
+//component
 import Landing from "./gallerylanding";
-import { SecondAnimated} from '../../components/layout/Animation'
 import GalleryBody from './gallerybody/index'
 import Banner from "./gallerybanner";
+//animation component
+import { SecondAnimated } from '../../components/layout/Animation'
+//styled component
+import { GalleryContainer } from "./gallery.styled";
 
 const Gallery = () => {
     return (

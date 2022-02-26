@@ -1,6 +1,8 @@
+//styled components
 import { CategoryContainer } from "./categories.styled";
-import Data from './data'
 import { MainHeading, Paragraph, StyledContainer, StyledRow, Column, Flex } from '../../../components/layout/Layout.styled'
+//data
+import Data from './data'
 
 const Category = () => {
     return (

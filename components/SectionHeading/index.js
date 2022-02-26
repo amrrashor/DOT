@@ -1,3 +1,4 @@
+//styled components
 import { SectionHeadingContainer, SectionHeadingTitle, SectionHeadingDesc } from './heading.style';
 
 const SectionHeading = ({ title,desc}) => {

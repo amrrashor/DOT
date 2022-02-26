@@ -1,5 +1,6 @@
 import Link from 'next/link';
 
+//styled components
 import { FooterContainer } from "./Footer.styled";
 import {
     StyledContainer,
@@ -11,7 +12,8 @@ import {
     Flex,
     Divider,
 } from "../layout/Layout.styled";
-import {Logo} from '../navbar/Navbar.stlyed'
+import { Logo } from '../navbar/Navbar.stlyed'
+//data
 import Data from './Data';
 
 const Footer = () => {

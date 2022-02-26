@@ -1,6 +1,9 @@
+//react
 import Link from 'next/dist/client/link';
 
+//styled components
 import { TagContainer, Tag } from './populartags.styled'
+//data
 import Data from './Data'
 
 

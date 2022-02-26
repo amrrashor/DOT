@@ -1,5 +1,7 @@
+//react
 import Link from 'next/link';
 
+//styled components & animation components
 import { ErrorContainer } from "./404.styled"
 import { Flex, MainHeading, Paragraph, StyledContainer, Button } from "../../components/layout/Layout.styled";
 import { Animated } from "../../components/layout/Animation";

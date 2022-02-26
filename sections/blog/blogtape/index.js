@@ -1,3 +1,4 @@
+//react
 import Link from 'next/link';
 
 //swiper
@@ -8,8 +9,10 @@ import "swiper/css/navigation"
 import SwiperCore, { Autoplay, EffectFade, Navigation } from 'swiper';
 SwiperCore.use([Autoplay, EffectFade, Navigation]);
 
+//styled components
 import { TapeContainer, TapeElement } from "./Tape.styled";
-import { Paragraph, StyledContainer} from '../../../components/layout/Layout.styled'
+import { Paragraph, StyledContainer } from '../../../components/layout/Layout.styled'
+//data
 import Data from './Data';
 
 const Tape = () => {

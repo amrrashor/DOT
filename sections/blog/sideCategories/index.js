@@ -1,8 +1,12 @@
+//react
 import Link from 'next/link'
 
+//react icons
 import { BiChevronRight } from "react-icons/bi"
 
+//styled components
 import { CategoriesContainer, Single } from "./sidecategories.styled";
+//data
 import Data from './Data';
 
 const SideCategories = () => {

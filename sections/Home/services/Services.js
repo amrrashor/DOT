@@ -1,11 +1,17 @@
+//react
 import Link from 'next/link'
 
+//react icons
 import { CgChevronDoubleRight } from 'react-icons/cg'
+//framer motion
 import { motion } from 'framer-motion';
 
+//components
 import SectionHeading from '../../../components/SectionHeading';
+//styled components
 import { ServiceContainer } from './Services.styled';
 import { Paragraph, StyledContainer, StyledRow, Column, Icon, Flex, TexTBtn, Title, SubHeading } from '../../../components/layout/Layout.styled';
+//data
 import Data from './Data';
 
 const Services = () => {

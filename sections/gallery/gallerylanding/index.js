@@ -5,8 +5,10 @@ import "swiper/css/effect-fade"
 import SwiperCore, { Autoplay, EffectFade } from 'swiper';
 SwiperCore.use([Autoplay, EffectFade]);
 
+//styled components
 import { GalleryLanding } from "./gallerybanner.styled"
-import {Image, Title, StyledContainer, Flex, Paragraph, MainHeading} from '../../../components/layout/Layout.styled'
+import { Image, MainHeading } from '../../../components/layout/Layout.styled'
+//data
 import Data from './Data'
 
 const Landing = () => {

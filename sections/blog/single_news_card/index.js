@@ -1,7 +1,10 @@
+//react
 import Link from 'next/link'
 
+//styled components
 import { SingleCardContainer, SingleCard } from "./singleNewsCard.styled";
-import { Title, Paragraph, TexTBtn, StyledRow, Column, Image, Small} from '../../../components/layout/Layout.styled'
+import { Title, Paragraph, TexTBtn, StyledRow, Column, Image, Small } from '../../../components/layout/Layout.styled'
+//data
 import Data from './Data';
 
 export const Single = () => {

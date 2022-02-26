@@ -1,8 +1,12 @@
+//react
 import { useState } from "react";
 
+//framer motion
 import { motion } from "framer-motion";
 
+//components
 import SectionHeading from "../../../components/SectionHeading";
+//styled components
 import { WorkContainer, Tab, Content } from "./WorkProcess.styled";
 import {
     StyledContainer,
@@ -15,6 +19,7 @@ import {
     SubHeading
 } from "../../../components/layout/Layout.styled";
 import { Badge } from '../../blog/blogHeader/BlogHeader.styled';
+//data
 import Data from './Data';
 
 //framer motion variants

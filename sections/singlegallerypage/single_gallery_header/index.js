@@ -1,5 +1,7 @@
+//styled components
 import { HeaderContainer } from './Header.styled';
 import { Divider, MainHeading, Paragraph, Small } from '../../../components/layout/Layout.styled';
+
 const Header = () => {
     return (
         <HeaderContainer>

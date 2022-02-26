@@ -1,10 +1,15 @@
+//react
 import Link from 'next/link';
 
+//react icons
 import { BiChevronRight } from 'react-icons/bi';
 
+//components
 import SectionHeading from '../../../components/SectionHeading';
+//styled components
 import { StyledContainer, StyledRow, Column, Paragraph, Title, Image, Flex, TexTBtn, Button } from "../../../components/layout/Layout.styled";
 import { NewsContainer } from "./News.styled";
+//data
 import Data from './Data';
 
 const News = () => {

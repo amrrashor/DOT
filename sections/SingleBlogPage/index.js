@@ -1,9 +1,15 @@
+//react
 import Link from 'next/link'
+
+//react icons
 import { BsChevronDoubleLeft, BsChevronDoubleRight } from 'react-icons/bs';
 
+//styled components
 import { SinglePageContainer, BlogBody, Shadow } from "./SingleBlogPage.styled"
 import { StyledContainer, StyledRow, Column, Image, SubHeading, Paragraph, Sticky, Flex, Small, TexTBtn } from '../../components/layout/Layout.styled'
-import { Animated, ThirdAnimated } from '../../components/layout/Animation';
+//animation components
+import { ThirdAnimated } from '../../components/layout/Animation';
+//components
 import Search from "../blog/search"
 import SideCategories from "../blog/sideCategories"
 import PopularTag from "../blog/populartags"
@@ -11,6 +17,7 @@ import SocialBlock from '../blog/socialblock';
 import BlogHeader from '../blog/blogHeader';
 import BlogTape from '../blog/blogtape'
 import BlogBanner from '../blog/blogbanner'
+//data
 import Data from './Data'
 
 

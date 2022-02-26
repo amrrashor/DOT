@@ -1,4 +1,6 @@
+//animation component
 import { ThirdAnimated } from "../../components/layout/Animation"
+//styled components
 import { ContactContainer, Form } from "./Contact.styled";
 import { Column, StyledContainer, StyledRow, Button, MainHeading } from "../../components/layout/Layout.styled";
 
