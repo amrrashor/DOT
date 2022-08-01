@@ -30,5 +30,7 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
+// this is from batota tota to my hero & my bolbol
+
 # vercel
 .vercel
